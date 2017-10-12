@@ -28,3 +28,13 @@ color: #5e00ff;
         background-color: #343a40;
         border-color: #343a40;
     }
+    .alert {
+        padding: 1.75rem 40rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+    .img-fluid {
+        max-width: 50%;
+        height: 200px;
+    }
