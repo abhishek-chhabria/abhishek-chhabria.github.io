@@ -1,5 +1,9 @@
 .h3, h3 {
     color:black;
-}
+text-align: center;}
 
 .body{background-color: grey}
+
+.lead{text-align: center;}
+
+.carousel-inner{margin-left: 20rem}
