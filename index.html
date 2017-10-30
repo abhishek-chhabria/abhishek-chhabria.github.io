@@ -1,37 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Weather</title>
-  <meta charset="utf-8">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkJMD1_etDjCXpjESOcixlKT1_U0QfYh4"
-    async defer></script>
-  <script src="helpers.js"></script>
-  <script src="weather.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
+<html lang="en">
+  <head>
+    <title>Welcome to OutFitMe</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Link style.css here -->
+ <link rel="stylesheet" type="text/css" href="1style.css">
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+ <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+
+
+  </head>
 <body>
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-6 ml-auto mr-auto text-left">
-        <input type="text" id="location-name" class="form-control" placeholder="Where to?">
-        <button id="get-the-weather" class="btn btn-primary mt-1">Get the weather!</button>
+    <!-- Your stuff goes here -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <a class="navbar-brand" href="index.html"><img src="logo.png" height="35" alt="Outfit Me Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="getstarted.html">Get Started </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="howitworks.html">How It Works</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+
+        </form>
       </div>
-    </div>
-    <div class="row current" style="display:none">
-      <div class="col">
-        <h1 id="current-conditions-icon"></h1>
-        <h1 id="location"></h1>
-        <h2 id="current-conditions-text"></h2>
-      </div>
-    </div>
-    <div class="row forecast" style="display:none">
-      <!-- Behold, the emptiness -->
-    </div>
+      </nav>
+
+  </body>
+
+  <div class="jumbotron"  >
+
+    <h1 class="display-4">Discover Your Unique Style!</h1>
+    <strong>
+
+    <p> Speak to one of our stylists to find the outfit that</p>
+    <p>best matches your Fit, Occassion & Budget </strong>
+
+    <hr class="my-4">
+
+    <p>You're just a few steps away from getting all that female attention</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="getstarted.html" role="button">Get Started</a>
+    </p>
   </div>
+
+
+  <!-- Footer -->
+  <footer class="py-2 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OutFitMe 2017</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
 </body>
+
+
+
 </html>
